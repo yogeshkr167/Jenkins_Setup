@@ -9,4 +9,11 @@ pipeline {
       }
     }
   }
+  stages {
+    stage('Test 2') {
+      steps {
+        sh 'node --version'
+      }
+    }
+  }
 }
